@@ -42,11 +42,7 @@ template<int... Is>
 std::istream& word_extractor(std::istream& is, std::string& str, detail::index<Is...>)
 {
     std::string temp;
-    
-<<<<<<< HEAD
-=======
-    
->>>>>>> 8fa73231b4925950b93a4dc4f640063d66faf359
+
     auto f = [&] {
         std::ios_base::iostate result;
         
